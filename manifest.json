@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Line of Sight Extension",
+  "version": "1.0.0",
+  "description": "A Google Chrome Extension to Calculate Line of Sight for Points on Google 
+Maps",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "https://maps.googleapis.com/*",
+    "https://maps.gstatic.com/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
